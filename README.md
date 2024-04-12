@@ -217,14 +217,13 @@ H2 접속 주소 : http://localhost:9090/h2-console
 
 
 * com.musinsa.common
-  * 공통 인증 처리
-  * 공통 응답 및 공통 예외 처리
+  * 공통 예외 응답 및 공통 예외 처리
 * com.musinsa.product
   * 상품 도메인
 * com.musinsa.brand
   * 브랜드 도메인
 * com.musinsa.category
-  * 카테고리
+  * 카테고리 도메인
 
   
 각 모메인 별 패키지 구조
