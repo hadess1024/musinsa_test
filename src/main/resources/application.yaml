@@ -28,3 +28,7 @@ spring:
     console:
       enabled: true
       path: /h2-console       # H2 Console 접속 주소
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
