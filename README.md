@@ -12,7 +12,7 @@ gradle 프로젝트 입니다.
 실행 환경은 다음과 같이 제공됩니다.
 * default
   * H2 접속
-  * java -jar musinsa-0.0.1.jar --spring.profiles.active=default
+  * java -Dfile.encoding=UTF-8 -Dspring.profiles.active=default -jar musinsa-0.0.1.jar
 
 
 H2로 실행시
